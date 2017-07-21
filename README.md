@@ -10,7 +10,7 @@ The flexibility of JavaScript's localStorage, implemented to work with PHP. loca
 	var_dump(localStorage("test"));
 	// By passing "null" as second parameter, the localStorage with a specific "key" variable is deleted
 	localStorage("test", null);
-	// It can also be removed as follows
+	// It can also be removed as follows.
 	localstorage.removeitem("test");
 	?>
 
