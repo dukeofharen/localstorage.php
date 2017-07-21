@@ -10,6 +10,8 @@ The flexibility of JavaScript's localStorage, implemented to work with PHP. loca
 	var_dump(localStorage("test"));
 	// By passing "null" as second parameter, the localStorage with a specific "key" variable is deleted
 	localStorage("test", null);
+	// It can also be removed as follows
+	localstorage.removeitem("test");
 	?>
 
 As you can see, it's very simple. It needs some configuration though. As for now, I've added two ways for localstorage.php to store the variables: in the file system or in a MySQL database. Let's take a look at how we can install localstorage.php.
